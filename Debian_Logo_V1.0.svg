@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-800 -650 1450 1450" style="background-color:#a80030">
+  <g transform="scale(1 -1)" fill="none" stroke="#fff" stroke-width="25">
+    <circle r="150" stroke-dasharray="523.6 418.9" stroke-dashoffset="-104.7"/>
+    <circle r="200" stroke-dasharray="244.3 1012.3" stroke-dashoffset="-733"/>
+    <circle r="250" stroke-dasharray="392.7 1178.1" stroke-dashoffset="-1134.5"/>
+    <circle r="300" stroke-dasharray="340.3 1544.7" stroke-dashoffset="157.1"/>
+    <circle r="350" stroke-dasharray="671.9 1527.2" stroke-dashoffset="-30.5"/>
+    <circle r="400" stroke-dasharray="907.6 1605.7" stroke-dashoffset="-209.4"/>
+    <circle r="450" stroke-dasharray="903.2 1925" stroke-dashoffset="-785.4"/>
+    <circle r="500" stroke-dasharray="436.3 2705.3" stroke-dashoffset="-1614.4"/>
+    <circle r="550" stroke-dasharray="288 3167.8" stroke-dashoffset="-2159.8"/>
+    <circle r="600" stroke-dasharray="261.8 3508.1" stroke-dashoffset="-2565.6"/>
+  </g>
+</svg>
