@@ -1,0 +1,23 @@
+\documentclass[tikz,border=10cm]{standalone}
+\definecolor{red}{HTML}{A80030}
+\begin{document}
+\pagecolor{red}
+  \begin{tikzpicture}
+    \foreach \start/\finish [count=\i from 3] in {%
+      40 / 240,
+      210 / 300,
+      255 / 350,
+      -30 / 35,
+      0 / 115,
+      25 / 160,
+      100 / 225,
+      185 / 235,
+      215 / 255,
+      245 / 270%
+    } {%
+      \draw[line width=1cm,white,overlay]
+        (\start : \i*2) arc (\start : \finish : \i*2);
+      }
+    \path (-24.5,-24.25) rectangle (18.5,18.75);
+  \end{tikzpicture}
+\end{document}

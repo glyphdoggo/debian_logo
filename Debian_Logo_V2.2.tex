@@ -1,0 +1,32 @@
+\documentclass[tikz,border=10cm]{standalone}
+\definecolor{red}{HTML}{A80030}
+\begin{document}
+\pagecolor{red}
+  \begin{tikzpicture}
+    \foreach \start / \finish [count=\i from 6] in {%
+      112 / 240,
+      60  / 269,
+      225 / 300,
+      246 / 322,
+      274 / 347,
+      -38 / 13,
+      -17 / 30,
+      -5  / 45,
+      7   / 62,
+      22  / 92,
+      35  / 141,
+      30  / 166,
+      46  / 214,
+      87  / 224,
+      107 / 232,
+      203 / 243,
+      221 / 249,
+      236 / 258,
+      250 / 270%
+    } {%
+      \draw[line width=5mm,white,overlay]
+        (\start : \i) arc (\start : \finish : \i);
+      }
+    \path (-24.5,-24) rectangle (18.5,19);
+  \end{tikzpicture}
+\end{document}
